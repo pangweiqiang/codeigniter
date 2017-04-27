@@ -25,4 +25,8 @@ class Welcome extends CI_Controller {
 	public function test(){
 	    echo  'hello world';
     }
+    //测试分支新增方法
+    public function fenzhi(){
+
+    }
 }
