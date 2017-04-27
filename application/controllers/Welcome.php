@@ -29,4 +29,8 @@ class Welcome extends CI_Controller {
     public function fenzhi(){
 
     }
+    //测试分支新增方法
+    public function fenzhi2(){
+
+    }
 }
