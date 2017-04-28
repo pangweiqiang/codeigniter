@@ -31,6 +31,6 @@ class Welcome extends CI_Controller {
     }
     //测试分支新增方法
     public function fenzhi2(){
-echo 'efwaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee';
+echo 'efwaeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaayyyyy';
     }
 }
