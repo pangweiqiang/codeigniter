@@ -14,12 +14,9 @@ class News extends CI_Controller
         $this->load->model('news_model');
     }
 
-    public function showMsg($page = 'home'){
-        if(!file_exists(APPPATH.'views/'.$page.'.php')){
-            show_404();
-        }
-        $data['title'] = ucfirst($page);
-        $msg = $this->news_model->index();
+    public function showMsg($page = ''){
+
+        $msg = $this->news_model->index($page);echo json_encode($msg);exit;
         $data['msg'] = $msg;
         $this->load->view('news',$data);
     }
